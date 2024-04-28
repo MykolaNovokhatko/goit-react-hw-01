@@ -1,0 +1,31 @@
+.tableTransactions{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
+    border-collapse: collapse;
+}
+
+.tableHead{
+    background-color: #0e0e0e;
+    color: white;
+    border: 1px solid black;
+    
+}
+
+.tableTd{
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.tableTr:nth-child(2n){
+    background-color: #bebcbc;
+}
+
+.tableTr:nth-child(1n):hover{
+    background-color: #e9ef38;
+}
