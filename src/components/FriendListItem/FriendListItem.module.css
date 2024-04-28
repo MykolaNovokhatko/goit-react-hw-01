@@ -6,10 +6,14 @@
     border: 2px solid black;
     border-radius: 6px;
     width: 100px;
-    height: 130px;
+}
+
+.container:hover {
+    border-color: rgb(137, 226, 43);
 }
 
 .nameStyle {
+    margin-top: 16px;
     font-size: 20px;
     font-weight: 500;
     color: #000000;
